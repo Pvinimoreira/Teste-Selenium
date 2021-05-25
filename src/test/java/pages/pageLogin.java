@@ -23,8 +23,6 @@ public class pageLogin {
     @Test
     public void logar() {
 
-        WebDriverWait wait = new WebDriverWait(driver, 5);
-
         driver.get("http://automationpractice.com/index.php");
         driver.findElement(By.cssSelector("#header > div.nav > div > div > nav > div.header_user_info > a")).click();
         driver.findElement(By.id("email")).sendKeys("abc@abc.com.br");
