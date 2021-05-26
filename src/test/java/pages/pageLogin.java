@@ -7,7 +7,7 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.WebDriverWait;
+
 
 public class pageLogin {
 
@@ -17,7 +17,6 @@ public class pageLogin {
     public void iniciar() {
         System.setProperty("webdriver.chrome.driver", "src/test/resources/driver/chromedriver.exe");
         driver = new ChromeDriver();
-
     }
 
     @Test
